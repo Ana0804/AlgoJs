@@ -1,27 +1,50 @@
 {
-    let x = 8;
-    let y = 2;
-    let z = x + y;
-        console.log (z);
-}   
+function addition(a, b) {
+    return a + b;
+}
+    console.log (addition(8, 2))
 
-{
-    let x = 5;
-    let y = 4;
-    let z = x - y;
-        console.log (z);
+    // let a = 8;
+    // let b = 2;
+    // let c = a + b;
+    //     console.log (c);
 }
 
 {
-    let x = 5;    
-    let y = 7;    
-    let z = x * y;
-        console.log (z);
+    var x = soustraction(5, 4)
+
+    function soustraction(d, e) {
+    return d - e;
+}
+    console.log (x)
+
+    // let d = 5;
+    // let e = 4;
+    // let f = d - e;
+    //     console.log (f);
 }
 
 {
-    let x = 5;    
-    let y = 2;    
-    let z = x / y;
-        console.log (z);
+function multiplication(g, h) {
+    return g * h;
 }
+    console.log (multiplication(5, 7))
+    
+    // let g = 5;    
+    // let h = 7;    
+    // let i = g * h;
+    //     console.log (i);
+}
+
+{
+function division(j, k) {
+    return j / k;
+}
+    console.log (division(5, 2))
+    
+    // let j = 5;    
+    // let k = 2;    
+    // let l = j / k;
+    //     console.log (l);
+}
+    
