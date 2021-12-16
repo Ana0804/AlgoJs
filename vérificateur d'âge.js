@@ -1,5 +1,3 @@
-
-
 const today = new Date();
 const birth = new Date(2014, 8, 10)
 var todayyear = today.getFullYear();
@@ -20,18 +18,5 @@ var a = todayyear - birthyear;
 
 console.log(age(a))        
 
-
-// {
-//     function naissance(b) {
-//         let result;
-//             if (b < 2003){
-//                 result = 'ACCESS DENIED';
-//             } else {
-//                 result = 'ACCESS ALLOWED';
-//             }
-//             return result;
-//             }
-//         console.log(naissance(1994))
-// }
 
 
