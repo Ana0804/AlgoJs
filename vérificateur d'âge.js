@@ -1,20 +1,25 @@
-{
-    const d = new Date(); 
-        console.log (d);
-        
-    var c = d.getFullYear();
+
+
+const today = new Date();
+const birth = new Date(2014, 8, 10)
+var todayyear = today.getFullYear();
+var birthyear = birth.getFullYear();
+
+var a = todayyear - birthyear;
 
     function age(a) {
         let result;
-            if (a < c){
+            if (a < 18){
                 result = 'ACCESS DENIED';
-            } else {
+            } 
+            else {
                 result = 'ACCESS ALLOWED';
             }
             return result;   
             }
-        console.log(age(1999))
-}
+
+console.log(age(a))        
+
 
 // {
 //     function naissance(b) {
@@ -28,4 +33,5 @@
 //             }
 //         console.log(naissance(1994))
 // }
+
 
