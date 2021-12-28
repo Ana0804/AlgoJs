@@ -1,5 +1,5 @@
 const today = new Date();
-const birth = new Date(2015, 8, 10)
+const birth = new Date(1999, 3, )
 var todayyear = today.getFullYear();
 var birthyear = birth.getFullYear();
 
